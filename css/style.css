@@ -1320,7 +1320,7 @@ article {
 	float: left;
 	border-right: 2px solid #f8f9fa;
 	min-height: 140px;
-	width: 630px;
+	width: 656px;
 }
 	.box_periodo h1,
 	.box_dia_semana h1,
@@ -1389,7 +1389,7 @@ article {
 	}
 .box_habitaciones {
 	float: left;
-	width: 240px;
+	width: 200px;
 	padding: 0 0 0 30px;
 	min-height: 130px;
 }
