@@ -125,6 +125,15 @@
 	.simple_input {
 		width: 70px !important;
 	}
+	.popUp .align_center.margin {
+		width: 100%;
+	}
+	.popUp .align_center.margin .btn_verde,
+	.popUp .align_center.margin .btn_gris {
+		width: calc(50% - 16px);
+		margin: 0 8px;
+		line-height: 1.3;
+	}
 	/* END PASOS */
 }
 @media only screen and (max-width: 320px) {
@@ -198,6 +207,14 @@
 	}
 	.simple_input {
 		width: 70px !important;
+	}
+	.popUp .align_center.margin {
+		width: 392px;
+	}
+	.popUp .align_center.margin .btn_verde,
+	.popUp .align_center.margin .btn_gris {
+		width: 180px;
+		line-height: 0.9;
 	}
 	/* END PASOS */
 }
