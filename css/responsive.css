@@ -68,6 +68,14 @@
 		margin: 5px 0 0;
     	font-size: 11px;
 	}
+	.btn_gris,
+	.btn_verde {
+		width: calc(50% - 5px);
+	}
+	.box_calendar {
+		margin: 0 0 20px;
+		width: 100%;
+	}
 	/* END HEADER */
 }
 @media only screen and (max-width: 320px) {
@@ -157,6 +165,10 @@
 		padding-left: 15px !important;
 		padding-right: 0 !important;
 	}
+	.noPaddingLeft.noPaddingRight {
+		padding-left: 0 !important;	
+		padding-right: 0 !important;
+	}
 	.box_user .avatar {
 		margin: 0 10px 0 0;
 	}
@@ -172,6 +184,14 @@
 	}
 	nav a p {
     	font-size: 13px;
+	}
+	.btn_gris,
+	.btn_verde {
+		width: initial;
+	}
+	.box_calendar {
+		margin: 15px 0;
+		width: initial;
 	}
 	/* END HEADER */
 }
