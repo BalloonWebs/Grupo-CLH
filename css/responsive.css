@@ -77,6 +77,47 @@
 		width: 100%;
 	}
 	/* END HEADER */
+	/* BEGIN PASOS */
+	.boxResult {
+		padding: 15px 15px 15px 15px !important;
+	}
+	.box_periodo {
+		min-height: 140px;
+    	width: 100%;
+    	border-right: 0 none;
+	}
+	.box_dia_semana {
+		width: 50%;
+    	padding: 0;
+    	border-right: 2px solid #f8f9fa;
+	}
+	.box_habitaciones {
+		width: 50%;
+    	padding: 0 0 0 5px;
+	}
+	.box_periodo .input_calendar {
+		margin: 0 10px 10px 0 !important;
+    	width: calc(50% - 10px);
+	}
+	.box_agrega_otro .btn_verde {
+		width: initial;
+	}
+	.btn_verde,
+	.btn_gris_claro {
+		padding: 11px 15px;
+	}
+	.btn_agregar {
+		font-size: 12px;
+		margin: 9px 0 0;
+	}
+	.btn_borrar {
+		margin: 5px 10px 0 10px;
+	}
+	.box_dia_semana .box p,
+	.box_habitaciones .box p {
+		font-size: 10px;
+	}
+	/* END PASOS */
 }
 @media only screen and (max-width: 320px) {
 }
@@ -114,6 +155,35 @@
     	font-size: 12px;
 	}
 	/* END HEADER */
+	/* BEGIN PASOS */
+	.boxResult {
+		padding: 25px 20px 25px 20px !important;
+	}
+	.box_dia_semana {
+		width: 200px;
+    	padding: 0 30px 0 0;
+    	border-right: 2px solid #f8f9fa;
+	}
+	.box_habitaciones {
+		width: 200px;
+    	padding: 0 0 0 30px;
+	}
+	.box_periodo .input_calendar {
+		margin: 0 10px 0 0 !important;
+    	width: 140px;
+	}
+	.btn_agregar {
+		font-size: 10px;
+		margin: 10px 0 0;
+	}
+	.btn_borrar {
+		margin: 5px 10px 0 10px;
+	}
+	.box_dia_semana .box p,
+	.box_habitaciones .box p {
+		font-size: 12px;
+	}
+	/* END PASOS */
 }
 @media only screen and (min-width: 600px) {
 }
@@ -194,6 +264,22 @@
 		width: initial;
 	}
 	/* END HEADER */
+	/* BEGIN PASOS */
+	.boxResult {
+		padding: 25px 30px 25px 44px !important;
+	}
+	.box_periodo .input_calendar {
+		margin: 0 10px 0 0 !important;
+    	width: 180px;
+	}
+	.btn_agregar {
+		font-size: 12px;
+		margin: 9px 0 0;
+	}
+	.btn_borrar {
+		margin: 5px 10px 0 10px;
+	}
+	/* END PASOS */
 }
 @media only screen and (min-width: 1024px) {
 	/* BEGIN LOGIN */
@@ -227,6 +313,41 @@
     	font-size: 12px;
 	}
 	/* END HEADER */
+	/* BEGIN PASOS */
+	.box_periodo {
+		min-height: 140px;
+    	width: 506px;
+    	border-right: 2px solid #f8f9fa;
+	}
+	.box_dia_semana {
+		width: 210px;
+    	padding: 0 20px;
+    	border-right: 2px solid #f8f9fa;
+	}
+	.box_habitaciones {
+		width: 180px;
+    	padding: 0 0 0 20px;
+	}
+	.box_periodo .input_calendar {
+		margin: 0 10px 0 0 !important;
+    	width: 120px;
+	}
+	.btn_verde,
+	.btn_gris_claro {
+		padding: 11px 10px;
+	}
+	.btn_agregar {
+		font-size: 11px;
+		margin: 9px 0 0;
+	}
+	.btn_borrar {
+		margin: 5px 9px 0 10px;
+	}
+	.box_dia_semana .box p,
+	.box_habitaciones .box p {
+		font-size: 11px;
+	}
+	/* END PASOS */
 }
 @media only screen and (min-width: 1400px) {
 	/* BEGIN LOGIN */
@@ -247,5 +368,43 @@
     	font-size: 14px;
 	}
 	/* END HEADER */
+	/* BEGIN PASOS */
+	.boxResult {
+		padding: 25px 50px 25px 64px !important;
+	}
+	.box_periodo {
+		min-height: 140px;
+    	width: 656px;
+    	border-right: 2px solid #f8f9fa;
+	}
+	.box_dia_semana {
+		width: 230px;
+    	padding: 0 30px;
+    	border-right: 2px solid #f8f9fa;
+	}
+	.box_habitaciones {
+		width: 200px;
+    	padding: 0 0 0 30px;
+	}
+	.box_periodo .input_calendar {
+		margin: 0 10px 0 0 !important;
+    	width: 160px;
+	}
+	.btn_verde,
+	.btn_gris_claro {
+		padding: 11px 15px;
+	}
+	.btn_agregar {
+		font-size: 12px;
+		margin: 9px 0 0;
+	}
+	.btn_borrar {
+		margin: 5px 10px 0 10px;
+	}
+	.box_dia_semana .box p,
+	.box_habitaciones .box p {
+		font-size: 12px;
+	}
+	/* END PASOS */
 }
 /*--- END MEDIA QUERY ---*/
