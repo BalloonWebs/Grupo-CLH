@@ -29,6 +29,7 @@ nav {
 		float: left;
 		clear: none;
 		margin: 0 20px 0 0;
+		width: initial;
 	}
 	nav a {
 		display: block;
@@ -46,6 +47,7 @@ nav {
 			position: absolute;
 			left: 0;
 			top: 0;
+			width: 100%;
 		}
 			nav a img.active {
 				opacity: 0;

@@ -55,6 +55,19 @@
 		margin: 8px 5px 0 0;
 		font-size: 12px;
 	}
+	nav li {
+		margin: 0 10px 10px 0;
+		width: calc(50% - 10px);
+	}
+	nav a span {
+		margin: 0 5px 0 0;
+		width: 14px;
+    	height: 14px;
+	}
+	nav a p {
+		margin: 5px 0 0;
+    	font-size: 11px;
+	}
 	/* END HEADER */
 }
 @media only screen and (max-width: 320px) {
@@ -78,6 +91,19 @@
 	}
 	.btn_icon {
 		margin: 7px 20px 0 0;
+	}
+	nav li {
+		margin: 0 10px 10px 0;
+		width: initial;
+	}
+	nav a span {
+		margin: 0 10px 0 0;
+		width: 19px;
+    	height: 19px;
+	}
+	nav a p {
+		margin: 6px 0 0;
+    	font-size: 12px;
 	}
 	/* END HEADER */
 }
@@ -138,6 +164,15 @@
 		margin: 6px 10px 0 0;
 		font-size: 14px;
 	}
+	nav li {
+		width: initial;
+	}
+	nav a span {
+		margin: 0 5px 0 0;
+	}
+	nav a p {
+    	font-size: 13px;
+	}
 	/* END HEADER */
 }
 @media only screen and (min-width: 1024px) {
@@ -160,6 +195,17 @@
 	.btn_icon {
 		margin: 7px 15px 0 0;
 	}
+	nav li {
+		margin: 0 10px 0 0;
+		width: initial;
+	}
+	nav a span {
+		margin: 0 10px 0 0;
+	}
+	nav a p {
+		margin: 7px 0 0;
+    	font-size: 12px;
+	}
 	/* END HEADER */
 }
 @media only screen and (min-width: 1400px) {
@@ -169,6 +215,17 @@
 	}
 	/* END LOGIN */
 	/* BEGIN HEADER */
+	nav li {
+		margin: 0 20px 0 0;
+		width: initial;
+	}
+	nav a span {
+		margin: 0 10px 0 0;
+	}
+	nav a p {
+		margin: 5px 0 0;
+    	font-size: 14px;
+	}
 	/* END HEADER */
 }
 /*--- END MEDIA QUERY ---*/
