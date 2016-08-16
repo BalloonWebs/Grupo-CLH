@@ -1,5 +1,6 @@
 /*--- BEGIN MEDIA QUERY ---*/
 @media only screen and (min-width: 240px) {
+	/* BEGIN LOGIN */
 	.popUp .box {
 		width: 90%;
 	}
@@ -9,6 +10,52 @@
 	.popUp .info {
 		padding: 40px 20px;
 	}
+	/* END LOGIN */
+	/* BEGIN HEADER */
+	header .right {
+		float: right;
+    	width: 100%;
+	}
+	.dropdown {
+		width: 290px;
+		margin: 0 30px 10px 0;
+	}
+	.btn_celeste {
+		padding: 11px 10px;
+		font-size: 11px;
+	}
+	.box_icon_header {
+		margin: 0 10px 0 5px;
+	}
+	.btn_icon {
+		margin: 7px 15px 0 0;
+	}
+	#logo_grupoCLH {
+		float: none;
+		margin: 0 auto 10px;
+	}
+	.noMobile {
+		display: none;
+	}
+	.activeMobile {
+		display: block;
+	}
+	.noPaddingLeft {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.noPaddingRight {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.box_user .avatar {
+		margin: 0 5px 0 0;
+	}
+	.box_user p {
+		margin: 8px 5px 0 0;
+		font-size: 12px;
+	}
+	/* END HEADER */
 }
 @media only screen and (max-width: 320px) {
 }
@@ -16,11 +63,28 @@
 }
 @media only screen and (max-width: 480px) {
 }
-@media only screen and (max-width: 568px) {
+@media only screen and (min-width: 568px) {
+	/* BEGIN HEADER */
+	.dropdown {
+		width: 181px;
+		margin: 0 10px 0 0;
+	}
+	.btn_celeste {
+		padding: 11px 10px;
+		font-size: 12px;
+	}
+	.box_icon_header {
+		margin: 0 20px;
+	}
+	.btn_icon {
+		margin: 7px 20px 0 0;
+	}
+	/* END HEADER */
 }
 @media only screen and (min-width: 600px) {
 }
 @media only screen and (min-width: 768px) {
+	/* BEGIN LOGIN */
 	.popUp .box {
 		width: 560px;
 	}
@@ -30,15 +94,81 @@
 	.popUp .info {
 		padding: 40px 60px;
 	}
+	/* END LOGIN */
+	/* BEGIN HEADER */
+	header .right {
+		float: right;
+    	width: initial;
+	}
+	.dropdown {
+		width: 181px;
+		margin: 0 10px 0 0;
+	}
+	.btn_celeste {
+		padding: 11px 10px;
+	}
+	.box_icon_header {
+		margin: 0 20px;
+	}
+	.btn_icon {
+		margin: 7px 20px 0 0;
+	}
+	#logo_grupoCLH {
+		float: left;
+		margin: 0;
+	}
+	.noMobile {
+		display: block;
+	}
+	.activeMobile {
+		display: none;
+	}
+	.noPaddingLeft {
+		padding-left: 0 !important;
+		padding-right: 15px !important;
+	}
+	.noPaddingRight {
+		padding-left: 15px !important;
+		padding-right: 0 !important;
+	}
+	.box_user .avatar {
+		margin: 0 10px 0 0;
+	}
+	.box_user p {
+		margin: 6px 10px 0 0;
+		font-size: 14px;
+	}
+	/* END HEADER */
 }
 @media only screen and (min-width: 1024px) {
+	/* BEGIN LOGIN */
 	.popUp .box {
 		width: 560px;
 	}
+	/* END LOGIN */
+	/* BEGIN HEADER */
+	.dropdown {
+		width: 290px;
+		margin: 0 10px 0 0;
+	}
+	.btn_celeste {
+		padding: 11px 10px;
+	}
+	.box_icon_header {
+		margin: 0 27px 0 20px;
+	}
+	.btn_icon {
+		margin: 7px 15px 0 0;
+	}
+	/* END HEADER */
 }
 @media only screen and (min-width: 1400px) {
+	/* BEGIN LOGIN */
 	.popUp .box {
 		width: 560px;
 	}
+	/* END LOGIN */
+	/* BEGIN HEADER */
+	/* END HEADER */
 }
 /*--- END MEDIA QUERY ---*/
