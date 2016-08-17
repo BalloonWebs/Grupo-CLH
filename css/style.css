@@ -1112,7 +1112,7 @@ article {
 			border-bottom: 2px solid #e6f3ee;
 		}
 			article .product_box li:nth-child(1) {
-				width: 130px;
+				width: 90px;
 				position: relative;
 			}
 				article .product_box li:nth-child(1) p {
@@ -1277,6 +1277,7 @@ article {
 					border-radius: 5px;
 					width: 100%;
 					right: -93px;
+					display: none;
 					transition: all 0.3s ease-in-out;
 					-webkit-transition: all 0.3s ease-in-out;
 					-moz-transition: all 0.3s ease-in-out;
@@ -1296,6 +1297,7 @@ article {
 					}
 						article .product_box_result li:nth-child(2) .tooltip.active {
 							opacity: 1;
+							display: block;
 						}
 			article .product_box_result li:nth-child(8),
 			article .product_box_result li:nth-child(15) {
