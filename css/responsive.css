@@ -21,11 +21,11 @@
 		margin: 0 10px 10px 0;
 	}
 	.btn_celeste {
-		padding: 11px 10px;
+		padding: 11px 5px;
 		font-size: 11px;
 	}
 	.box_icon_header {
-		margin: 0 10px 0 5px;
+		margin: 0 13px 0 5px;
 	}
 	.btn_icon {
 		margin: 7px 15px 0 0;
@@ -49,11 +49,11 @@
 		padding-right: 15px !important;
 	}
 	.box_user .avatar {
-		margin: 0 5px 0 0;
+		margin: 0 3px 0 0;
 	}
 	.box_user p {
-		margin: 8px 5px 0 0;
-		font-size: 12px;
+		margin: 9px 5px 0 0;
+		font-size: 11px;
 	}
 	nav li {
 		margin: 0 10px 10px 0;
@@ -167,7 +167,7 @@
 		margin: 0 0 0 5px;
 	}
 	.box_dias li {
-		margin: 0 5px;
+		margin: 0 4px;
 	}
 	.box_dias li:nth-child(9),
 	.box_dias li:nth-child(10),
@@ -251,7 +251,7 @@
 	article .green_box li,
 	article .product_box li,
 	article .product_box_result li {
-		width: 46.6px;
+		width: 44.1px;
 	}
 	article {
 		padding: 0 10px;
